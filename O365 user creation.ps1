@@ -4,12 +4,12 @@
 $license=(Get-MsolAccountSku)
 $licenseType=$licencetype[0].AccountSkuId
 
-$upn="$firstname$lastname@LTIMIndtree243.onmicrosoft.com"
+$upn="$firstname$lastname@yourdmain"
 $display="$firstname $lastname"
 $defaultpasswd="Password@123"
  
 #Admin user and Password
-$admin_username = "UnnatiJoshi@LTIMIndtree243.onmicrosoft.com"
+$admin_username = "yourdomain.onmicrosoft.com"
 $admin_passwd = "Newuser@123"
 $admin_secpasswd = ConvertTo-SecureString -String $admin_passwd -AsPlainText -Force
 $admin_cred = New-Object Management.Automation.PSCredential ($admin_username, $admin_secpasswd)
