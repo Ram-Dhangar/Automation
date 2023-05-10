@@ -13,9 +13,9 @@ foreach ($user in $disabledUsers) {
 }
 
 
-$smtpserver = "bakelite-com.mail.protection.outlook.com"
-$emailFrom="bakelite-o365-support@bakelite.com"
-$emailTo = "moinuddin.ustad@bakelite.com"
+$smtpserver = "smtp server mail"
+$emailFrom="service desk mail"
+$emailTo = "reciver email"
 $subject = "Disable user still have o365 licenses assigned"
 
 $body = "Hi Admin , <BR><BR> This is to inform you that $user.UserPrincipalName have still license assigned. <B></B>.  Thanks <br><br><hr><br>It is a system generated mail, please do not reply on this mail."
